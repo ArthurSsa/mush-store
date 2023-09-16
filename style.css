@@ -19,8 +19,9 @@
     }
     
     #home {
-        position: relative;
-        right: 100px;    
+        position:fixed;
+        left: 50px;  
+        
     }
 
     #essenciais {
@@ -35,6 +36,6 @@
 
     #carrinho {
         position: relative;
-        left: 950px;
+        left: 1050px;
         bottom: 59px;
     }
