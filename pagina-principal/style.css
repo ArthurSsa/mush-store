@@ -36,3 +36,43 @@
         color: black; 
         border-color: white; 
     }
+
+    @media screen and (min-width: 480px) and (max-width: 1024px){
+        .cabecalho-menu{
+            gap: 15px;
+        }
+
+      .cabecalho-imagem {
+        height: 30px;
+      }
+
+      }
+      
+      
+    @media screen and (min-width: 400px) and (max-width: 480px){
+        .cabecalho-menu{
+            gap: 10px;
+        }
+
+      .cabecalho-imagem {
+        height: 20px;
+      }
+
+      #botao-carrinho{
+        height: 39px;
+      }
+      }
+      
+      @media screen and (min-width: 320px) and (max-width: 399px){
+        .cabecalho-menu{
+            gap: 0px;
+        }
+
+      .cabecalho-imagem {
+        height: 15px;
+      }
+
+      #botao-carrinho{
+        height: 39px;
+      }
+      }
