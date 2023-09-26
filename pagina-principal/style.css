@@ -18,7 +18,7 @@
      
     .cabecalho-menu{ 
         display: flex; 
-        gap: 130px; 
+        gap: 100px; 
         align-items: center; 
         
     } 
@@ -37,13 +37,32 @@
         border-color: white; 
     }
 
-    @media screen and (min-width: 480px) and (max-width: 1024px){
+    .card {
+      margin: 70px;
+    }
+
+    .card-img-top {
+    height: 500px;
+    }
+
+    @media screen and (min-width: 710px) and (max-width: 1024px){
+      .cabecalho-menu{
+          gap: 25px;
+      }
+
+    .cabecalho-imagem {
+      height: 30px;
+    }
+
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 709px){
         .cabecalho-menu{
             gap: 15px;
         }
 
       .cabecalho-imagem {
-        height: 30px;
+        height: 20px;
       }
 
       }
@@ -63,7 +82,7 @@
       }
       }
       
-      @media screen and (min-width: 320px) and (max-width: 399px){
+      @media screen and (min-width: 0px) and (max-width: 399px){
         .cabecalho-menu{
             gap: 0px;
         }
