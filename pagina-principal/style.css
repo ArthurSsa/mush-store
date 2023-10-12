@@ -39,11 +39,38 @@
 
     .card {
       margin: 70px;
+      
     }
 
     .card-img-top {
     height: 500px;
     }
+
+    .produtos-alta{
+      margin-left: 70px;
+      margin-top: 20px;
+
+    }
+    
+    .card-group{
+      margin-top: -60px;
+    }
+
+    .overlay {
+      position: absolute;
+      height: 500px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease; }
+
+      .card:hover .overlay {
+        opacity: 1;
+      }
 
     @media screen and (min-width: 710px) and (max-width: 1024px){
       .cabecalho-menu{
@@ -84,14 +111,15 @@
       
       @media screen and (min-width: 0px) and (max-width: 399px){
         .cabecalho-menu{
-            gap: 0px;
-        }
-
-      .cabecalho-imagem {
-        height: 15px;
+          gap: 0px;
       }
 
-      #botao-carrinho{
-        height: 39px;
+    .cabecalho-imagem {
+      height: 15px;
+    }
+
+    #botao-carrinho{
+      height: 39px;
+    }
       }
-      }
+        
