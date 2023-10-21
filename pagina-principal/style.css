@@ -35,6 +35,7 @@
         background-color: white; 
         color: black; 
         border-color: white; 
+        padding-left: 100px;
     }
 
     .card {
@@ -72,54 +73,191 @@
         opacity: 1;
       }
 
-    @media screen and (min-width: 710px) and (max-width: 1024px){
+    @media screen and (min-width: 1101px){
       .cabecalho-menu{
-          gap: 25px;
+          gap: 60px;
       }
 
     .cabecalho-imagem {
-      height: 30px;
+      height: 40px;
+      padding-left: 80px;
+      
     }
 
     }
 
-    @media screen and (min-width: 480px) and (max-width: 709px){
+    @media screen and (min-width: 871px) and (max-width: 1101px){
         .cabecalho-menu{
             gap: 15px;
         }
 
       .cabecalho-imagem {
-        height: 20px;
+        height: 40px;
+        padding-left: 150px;
+      }
+
+      #search{
+        padding-left: 40px;
       }
 
       }
       
       
-    @media screen and (min-width: 400px) and (max-width: 480px){
+    @media screen and (min-width: 701px) and (max-width: 871px){
         .cabecalho-menu{
             gap: 10px;
         }
 
       .cabecalho-imagem {
-        height: 20px;
+        height: 30px;
+        padding-left: 70px;
+      }
+
+      #search{
+        padding-left: 40px;
       }
 
       #botao-carrinho{
-        height: 39px;
+        height: 40px;
+        
       }
       }
       
-      @media screen and (min-width: 0px) and (max-width: 399px){
+      @media screen and (min-width: 600px) and (max-width: 701px){
         .cabecalho-menu{
           gap: 0px;
       }
 
     .cabecalho-imagem {
-      height: 15px;
+      height: 20px;
+      padding-right: 40px;
+      padding-left: 60px;
     }
 
     #botao-carrinho{
-      height: 39px;
+      height: 40px;
+    }
+
+    .login{
+      padding-left: 10px;
     }
       }
-        
+
+      @media screen and (min-width: 541px) and (max-width: 600px){
+        .cabecalho-menu{
+          gap: 0px;
+      }
+
+    .cabecalho-imagem {
+      height: 20px;
+      padding-right: 40px;
+      padding-left: 60px;
+    }
+
+    #botao-carrinho{
+      height: 40px;
+    }
+
+    .login{
+      padding-left: 10px;
+    }
+      
+
+      #produtos{ 
+       
+        padding-left: 40px;
+    }
+  }
+
+  
+  @media screen and (min-width: 451px) and (max-width: 541px){
+    .cabecalho-menu{
+      gap: 0px;
+  }
+
+.cabecalho-imagem {
+  height: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#botao-carrinho{
+  height: 40px;
+}
+
+.login{
+  padding-left: 10px;
+}
+  
+
+  #produtos{ 
+   
+    padding-left: 20px;
+}
+}
+
+@media screen and (min-width: 410px) and (max-width: 451px){
+  .cabecalho-menu{
+    gap: 0px;
+}
+
+.cabecalho-imagem {
+height: 20px;
+padding-right: 1px;
+padding-left: 1px;
+}
+
+#botao-carrinho{
+height: 40px;
+}
+
+.login{
+padding-left: 10px;
+padding-right: 1px;
+}
+
+
+#produtos{ 
+ 
+  padding-left: 15px;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 410px){
+  .cabecalho-menu{
+    gap: 0px;
+}
+
+.cabecalho-imagem {
+height: 15px;
+padding-right: 1px;
+padding-left: 1px;
+}
+
+.login{
+padding-left: 10px;
+padding-right: 1px;
+}
+
+
+#produtos{ 
+ 
+  padding-left: 10px;
+}
+
+#icon-login{
+  width: 28px;
+}
+
+#icon-carrinho{
+  height: 20px;
+}
+
+#botao-carrinho{
+  width: 50px;
+  height: 37px;
+}
+}
+
+
+      
