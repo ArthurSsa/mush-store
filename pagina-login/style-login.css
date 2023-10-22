@@ -9,6 +9,8 @@
 
 }
 
+
+
 #cabecalho-hr{
     height: 5px;
     border: 0px;
@@ -22,7 +24,7 @@
     flex-direction: column;
     width: 500px;
     margin: 0 auto;
-    padding-top: 13%;
+    padding-top: 9%;
 }
 
 #logo-twitter {
@@ -193,4 +195,15 @@
     border: 0px;
     background: rgb(226,226,226);
     background: linear-gradient(90deg, rgba(226,226,226,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,255,255,0) 100%);
+}
+
+.background-login {
+    display: block;
+    padding: 0;
+    width: 100vw;
+    height: 88vh;
+    background-image: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?cs=srgb&dl=atmosphere-blue-sky-clouds-912110.jpg&fm=jpg");
+    background-repeat: no-repeat bottom center scroll;
+    position: relative;
+    background-size: cover;
 }
