@@ -9,7 +9,7 @@
 
 }
 
-#cabecalho-hr{
+#cabecalho-hr {
     height: 5px;
     border: 0px;
     margin: 0;
@@ -22,7 +22,7 @@
     flex-direction: column;
     width: 500px;
     margin: 0 auto;
-    padding-top: 13%;
+    padding-top: 5%;
 }
 
 #logo-twitter {
@@ -47,31 +47,36 @@
     flex-wrap: wrap;
     width: 500px;
     background-color: rgb(233, 233, 233);
-    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 
 }
 
 .form_header-join {
     width: 250px;
     text-align: center;
-    background-color: rgb(233, 233, 233);
-    border-top-right-radius: 25px;
     padding: 8px;
+    border-top-left-radius: 20px;
+    background-color: white;
     font-size: 20px;
 }
 
 .form_header-login {
     width: 250px;
     text-align: center;
+    background-color: rgb(233, 233, 233);
+    border-top-left-radius: 25px;
     padding: 8px;
-    border-top-right-radius: 20px;
-    background-color: white;
     font-size: 20px;
+}
+
+.register-link-login {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
 }
 
 .register-link {
     text-decoration: none;
-    border-top-right-radius: 12px;
     cursor: pointer;
     color: #000;
 }
@@ -97,20 +102,28 @@
     justify-content: center;
 }
 
+#phone {
+    width: 300px;
+}
+
+#name {
+    width: 300px;
+}
+
 #email {
-    width: 300px;    
+    width: 300px;
 }
 
 #password {
     width: 300px;
 }
+
 .input-box {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 15px;
 }
-
 
 .input-box label {
     font-size: 16px;
@@ -134,12 +147,10 @@
     width: 260px;
     font-size: 18px;
     padding: 0px 5px;
-
 }
 
 .input-field input:focus {
     outline: none;
-
 }
 
 .button-entrar {
@@ -147,7 +158,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
-    
+
 }
 
 #forgot_password {
@@ -156,7 +167,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-bottom: 15px;
 }
 
 #login_button {
@@ -191,6 +201,6 @@
     width: 100%;
     height: 2px;
     border: 0px;
-    background: rgb(226,226,226);
-    background: linear-gradient(90deg, rgba(226,226,226,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(255,255,255,0) 100%);
+    background: rgb(226, 226, 226);
+    background: linear-gradient(90deg, rgba(226, 226, 226, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(255, 255, 255, 0) 100%);
 }
