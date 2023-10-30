@@ -14,29 +14,33 @@
   <link rel="stylesheet" href="/pagina-principal/swiper-bundle.min.css">
 
 </head>
-<body> 
-  <header class="cabecalho"> 
-    <nav class="cabecalho-menu"> 
-      
+
+<body>
+  <header class="cabecalho">
+    <nav class="cabecalho-menu">
+
       <a class="nav-link active" aria-current="page" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="35" fill="currentColor" class="bi bi-house-fill" viewBox=" 1 -1 14 16">
-          <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
-          <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="35" fill="currentColor" class="bi bi-house-fill"
+          viewBox=" 1 -1 14 16">
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+          <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
         </svg>
       </a>
-      <div class="dropdown"> 
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="produtos"> 
-          Produtos 
-        </button> 
-        <ul class="dropdown-menu"> 
-          <li><button class="dropdown-item" type="button">Camisas</button></li> 
-          <li><button class="dropdown-item" type="button">Calças</button></li> 
-          <li><button class="dropdown-item" type="button">promoções</button></li> 
-        </ul> 
-      </div> 
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+          id="produtos">
+          Produtos
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">Camisas</button></li>
+          <li><button class="dropdown-item" type="button">Calças</button></li>
+          <li><button class="dropdown-item" type="button">promoções</button></li>
+        </ul>
+      </div>
       <div class="d-flex justify-content-between"></div>
       <div class="d-flex justify-content-around"></div>
-      <img class="cabecalho-imagem" src="/./components/logo.png"> 
+      <img class="cabecalho-imagem" src="/./components/logo.png">
 
       <nav class="navbar bg-body-tertiary" id="search">
         <div class="container-fluid" id="search-container">
@@ -44,21 +48,25 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit" style="border-color: black;     --bs-btn-hover-bg: #f0f0f0c9;
             ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24"  class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
               </svg>
             </button>
         </div>
       </nav>
 
-      <button id="botao-carrinho" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" >
+      <button id="botao-carrinho" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16" id="icon-carrinho">
-          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="25" fill="currentColor" class="bi bi-cart-fill"
+          viewBox="0 0 16 16" id="icon-carrinho">
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
         </svg>
       </button>
       <div class="login">
-      <!-- BOTAO DE LOGIN  -->
+        <!-- BOTAO DE LOGIN  -->
         <a href="../pagina-login/login.html">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="" class="bi bi-person-circle"
             viewBox="0 0 16 16" id="icon-login">
@@ -114,14 +122,22 @@
       <p id="slide-text">PRODUTOS EM ALTA</p>
     </div>
     <!-- CARD -->
-    <div class="slide-container swiper">
+    <divv class="slide-container swiper">
       <div class="slide-content">
         <div class="card-wrapper swiper-wrapper">
           <div class="card swiper-slide">
             <div class="image-content">
-              <span class="overlay"></span>
               <div class="card-image">
-                <img src="https://approve.fbitsstatic.net/img/p/camiseta-oversized-approve-yrslf-inverse-off-white-73456/282583-1.jpg?w=600&h=909&v=no-change&qs=ignore" alt="" class="card-img">
+                <img
+                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-yrslf-inverse-off-white-73527/282859-1.jpg?w=600&h=909&v=no-change&qs=ignore"
+                  alt="" class="card-img">
+                <div class="img-hover">
+                  <div class="overlay">
+                    <img
+                      src="https://approve.fbitsstatic.net/img/p/camiseta-bol…27/282859-2.jpg?w=600&h=909&v=no-change&qs=ignore"
+                      alt="..." class="card-img">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card-content">
@@ -130,12 +146,20 @@
               <p class="description">ou 10x de R$ 17,00 sem juros no cartão de crédito</p>
             </div>
           </div>
+          <!-- CARD -->
           <div class="card swiper-slide">
             <div class="image-content">
-              <span class="overlay"></span>
               <div class="card-image">
                 <img
-                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-spare-preto-e-chumbo-73989/284960-1.jpg?w=600&h=909&v=202310241631&qs=ignore" alt="" class="card-img">
+                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-spare-preto-e-chumbo-73989/284960-1.jpg?w=600&h=909&v=202310241631&qs=ignore"
+                  alt="" class="card-img">
+                <div class="img-hover">
+                  <div class="overlay">
+                    <img
+                      src="https://approve.fbitsstatic.net/img/p/camiseta-bol…27/282859-2.jpg?w=600&h=909&v=no-change&qs=ignore"
+                      alt="..." class="card-img">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="card-content">
@@ -144,12 +168,13 @@
               <p class="description">ou 10x de R$ 17,00 sem juros no cartão de crédito</p>
             </div>
           </div>
+          <!-- CARD -->
           <div class="card swiper-slide">
             <div class="image-content">
-              <span class="overlay"></span>
               <div class="card-image">
                 <img
-                  src="https://approve.fbitsstatic.net/img/p/camiseta-oversized-barbie-x-approve-branca-branco-73649/283398-5.jpg?w=600&h=909&v=no-change&qs=ignore" alt="" class="card-img">
+                  src="https://approve.fbitsstatic.net/img/p/camiseta-oversized-barbie-x-approve-branca-branco-73649/283398-5.jpg?w=600&h=909&v=no-change&qs=ignore"
+                  alt="" class="card-img">
               </div>
             </div>
             <div class="card-content">
@@ -158,12 +183,13 @@
               <p class="description">ou 10x de R$ 17,00 sem juros no cartão de crédito</p>
             </div>
           </div>
+          <!-- CARD -->
           <div class="card swiper-slide">
             <div class="image-content">
-              <span class="overlay"></span>
               <div class="card-image">
                 <img
-                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-planet-off-white-off-white-72599/277969-1.jpg?w=600&h=909&v=no-change&qs=ignore" alt="" class="card-img">
+                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-planet-off-white-off-white-72599/277969-1.jpg?w=600&h=909&v=no-change&qs=ignore"
+                  alt="" class="card-img">
               </div>
             </div>
             <div class="card-content">
@@ -172,12 +198,13 @@
               <p class="description">ou 10x de R$ 17,00 sem juros no cartão de crédito</p>
             </div>
           </div>
+          <!-- CARD -->
           <div class="card swiper-slide">
             <div class="image-content">
-              <span class="overlay"></span>
               <div class="card-image">
                 <img
-                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-ap-summer-preta-73927/284662-1.jpg?w=600&h=909&v=202310241709&qs=ignore" alt="" class="card-img">
+                  src="https://approve.fbitsstatic.net/img/p/camiseta-bold-approve-ap-summer-preta-73927/284662-1.jpg?w=600&h=909&v=202310241709&qs=ignore"
+                  alt="" class="card-img">
               </div>
             </div>
             <div class="card-content">
@@ -191,7 +218,7 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
-    </div>
+    </divv>
   </div>
 
   <!-- swiper js -->

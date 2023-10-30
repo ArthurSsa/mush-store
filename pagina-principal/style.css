@@ -73,7 +73,7 @@
   transition: .5s ease;
 }
 
-.card:hover .overlay {
+.card-image:hover .overlay {
   opacity: 1;
 }
 
