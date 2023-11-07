@@ -92,14 +92,7 @@
   border-color: rgba(116, 15, 211, 0.801);
 }
 
-.categorias-container{
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#acesse-por{
+#acesse{
 color: #000;
 text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 font-family: Inter;
@@ -121,6 +114,129 @@ margin-bottom: -1px;
   font-weight: 900;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.slide-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 44px;
+}
+
+.slide-container {
+  max-width: 1450px;
+  width: 100%;
+  display: flex;
+  align-items: center ;
+  gap: 15px;
+}
+
+#slide-alta {
+  color: #000;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+#body-categorias{
+  padding-top: 57px;
+}
+
+.slide-content {
+  margin: 0 50px;
+  overflow: hidden;
+}
+
+.card {
+  /* width: 329px; */
+  background-color: white;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.068));
+  margin: 0;
+  --bs-border-width: 0px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 19px;
+}
+
+.card-image {
+  position: relative;
+  height: 400px;
+  width: 329px;
+  background: white;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+}
+
+.card-img {
+  height: 400px;
+  width: 329px;
+}
+
+.card-content {
+  margin: 0px;
+  height: 110.35px;
+  flex-shrink: 0;
+}
+
+.name {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+
+.description-value {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.description {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.swiper-button-next{
+  right: 0;
+}
+
+.swiper-button-prev{
+  left: 0;
 }
 
 
@@ -310,121 +426,3 @@ margin-bottom: -1px;
   }
 }
 
-.slide-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding-top: 44px;
-}
-
-.slide-container {
-  max-width: 1450px;
-  width: 100%;
-  display: flex;
-  align-items: center ;
-  gap: 15px;
-}
-
-#slide-text {
-  color: #000;
-  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: uppercase;
-  margin-bottom: 25px;
-}
-
-.slide-content {
-  margin: 0 50px;
-  overflow: hidden;
-}
-
-.card {
-  /* width: 329px; */
-  background-color: white;
-  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.068));
-  margin: 0;
-  --bs-border-width: 0px;
-}
-
-.image-content {
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-}
-
-.card-content {
-  display: flex;
-  flex-direction: column;
-  padding: 13px 19px;
-}
-
-.card-image {
-  position: relative;
-  height: 400px;
-  width: 329px;
-  background: white;
-}
-
-.card-image .card-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-image {
-  display: flex;
-  align-items: center;
-}
-
-.card-img {
-  height: 400px;
-  width: 329px;
-}
-
-.card-content {
-  margin: 0px;
-  height: 110.35px;
-  flex-shrink: 0;
-}
-
-.name {
-  color: #000;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  padding-bottom: 5px;
-}
-
-
-.description-value {
-  color: #000;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-bottom: 0px;
-}
-
-.description {
-  color: #000;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-}
-
-.swiper-button-next{
-  right: 0;
-}
-
-.swiper-button-prev{
-  left: 0;
-}
