@@ -208,6 +208,19 @@ margin-bottom: -1px;
   align-items: center;
 }
 
+.descontos-image {
+  display: flex;
+  
+}
+.descontos-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  width: 1000px;
+
+}
+
 .card-img {
   height: 400px;
   width: 329px;
@@ -260,6 +273,11 @@ margin-bottom: -1px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.container-descontos{
+  display: flex;
+  
 }
 
 
