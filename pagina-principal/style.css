@@ -441,6 +441,16 @@ left: 70px;
   padding-top: 111px;
 }
 
+.overlay-marcas{
+  position: absolute;
+  top: 100px;
+  bottom: 100px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
 @media screen and (min-width: 1101px) {
   .cabecalho-menu {
     gap: 60px;
